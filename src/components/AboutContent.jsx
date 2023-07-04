@@ -1,7 +1,8 @@
 import "./AboutContentStyles.css";
 
 import React from 'react'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import Resume from "./Resume";
 
 
 const AboutContent = () => {
@@ -9,10 +10,16 @@ const AboutContent = () => {
     <div className="about">
         <div className="left">
         <h1>Who I Am?</h1>
-        <p>Hi, I a Vaishnavi Karadge.I am a Front developer.</p>
-        <Link to="/contactus">
-            <button className="btn">Contact</button>
-        </Link>
+        <p>Hi, I am Vaishnavi Karadge.I am a Front-End developer.
+        <ul>
+            <li>I am Pursuing B.Tech in Electronics and Telecommunication Engineering (CGPA: 8.26).</li>
+            <li> I completed my Higher Secondary Certificate from Govindrao Junior College, Ichalkaranji and got 63.69%.</li>
+            <li>I completed my Secondary School Certificate from New English School,Rendal and got 85.80%.</li>
+        </ul>
+        </p>
+        
+        <Resume/>
+
         </div>
         <div className="right">
             <div className="img-container">
