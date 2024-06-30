@@ -10,11 +10,11 @@ const AboutContent = () => {
     <div className="about">
         <div className="left">
         <h1>Who I Am?</h1>
-        <p>Hi, I am Vaishnavi Karadge.I am a Front-End developer.
+        <p>Hi, I am Vaishnavi Karadge.I am a Front-End developer. I completed : 
         <ul>
-            <li>I am Pursuing B.Tech in Electronics and Telecommunication Engineering (CGPA: 8.26).</li>
-            <li> I completed my Higher Secondary Certificate from Govindrao Junior College, Ichalkaranji and got 63.69%.</li>
-            <li>I completed my Secondary School Certificate from New English School,Rendal and got 85.80%.</li>
+            <li>- &nbsp;B.Tech in Electronics and  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telecommunication Engineering (CGPA : 8.25).</li>
+            <li> &nbsp;&nbsp;&nbsp;&nbsp;- Higher Secondary Certificate &nbsp;&nbsp;from Govindrao Junior College, Ichalkaranji and got 63.69%.</li>
+            <li> &nbsp;&nbsp;&nbsp;&nbsp;- Secondary School Certificate &nbsp;&nbsp;&nbsp;&nbsp;from New English School,Rendal and got 85.80%.</li>
         </ul>
         </p>
         

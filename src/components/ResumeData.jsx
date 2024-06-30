@@ -1,7 +1,8 @@
+import React from "react";
 
 const ResumeData = [
     {
-        resume:"https://drive.google.com/file/d/1UDVfERY-HEJBLM-9fW7VTi6RLLLeVxPI/view?usp=sharing"
+        resume:"https://drive.google.com/file/d/1w0dhlm36i18G37vu-GwrbR81WE67fvSo/view?usp=sharing"
     }
 ]
 

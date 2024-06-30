@@ -1,8 +1,9 @@
 import "./FooterStyles.css";
-
 import React from 'react';
 import {FaHome,  FaGithub, FaLinkedin} from "react-icons/fa";
 import {CgMail} from "react-icons/cg";
+
+
 
 const Footer = () => {
   return (
@@ -16,7 +17,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="email">
-                <h4><CgMail size={20} style={{color:"#fff", marginRight:"2rem"}}/>vaishnavikaradge@gmail.com</h4>
+                <h4>
+                    <CgMail size={20} style={{color:"#fff", marginRight:"2rem"}}/>
+                vaishnavikaradge@gmail.com</h4>
                 </div>
                 
             </div>
@@ -25,8 +28,13 @@ const Footer = () => {
                 <p> You can reach me via email or find me on social networks.</p>
                 <p>I would love to hear from you.</p>
                 <div className="social">
-                <FaGithub size={30} style={{color:"#fff", marginRight:"2rem"}}/>
-                <FaLinkedin size={30} style={{color:"#fff", marginRight:"2rem"}}/>
+                   <a href="https://github.com/vaishnavikaradge">
+                      <FaGithub size={30} style={{color:"#fff", marginRight:"2rem", cursor:'pointer'}}  />
+                   </a>
+                   <a href="https://www.linkedin.com/in/vaishnavi-karadge-02732b20a">
+                      <FaLinkedin size={30} style={{color:"#fff", marginRight:"2rem", cursor:'pointer'}}  />
+                   </a>
+                 
                 </div>
             </div>
         </div>

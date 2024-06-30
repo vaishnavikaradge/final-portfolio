@@ -24,8 +24,22 @@ const Skills = () => {
             </div>
 
             <div className="skill">
+            <img className="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr3qu45w6oR6DRe_TzUxob6I3Il68s2FPbz9hDE7Cr-UErqajrGD6SdW0AZ6DOtdwGtKc&usqp=CAU" alt="Git" width="100" height="100"/>
+            </div>
+
+            <div className="skill">
+            <img className="image" src="https://www.shutterstock.com/image-illustration/sql-database-icon-logo-design-260nw-695249038.jpg" alt="SQL" width="100" height="100"/>
+            </div>
+
+            <div className="skill">
+            <img className="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi-nwyPIq1C4b49wz08KL3jyBXdrnHww0rag&s" alt="Java" width="100" height="100"/>
+            </div>
+
+            <div className="skill">
             <img className="image" src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" alt="Github" width="100" height="100"/>
             </div>
+
+
         </div>
     </div>
   )
